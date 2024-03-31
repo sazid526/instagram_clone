@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 import 'package:flutter/material.dart';
 
 class InputTextField extends StatelessWidget {
@@ -7,6 +9,7 @@ class InputTextField extends StatelessWidget {
   final bool isPass;
   final String hintText;
   final TextInputType textInputType;
+
 
 
   @override
